@@ -6,6 +6,14 @@
     "description": "A comprehensive dashboard for managing OpenClaw agents, sessions, configurations, and agent relationships",
     "author": "openclaw-dashboard",
     "license": "MIT",
+    "activation": {
+        "onStartup": true
+    },
+    "contracts": {
+        "tools": [
+            "run_task_flow"
+        ]
+    },
     "configSchema": {
         "type": "object",
         "additionalProperties": false,

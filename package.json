@@ -17,6 +17,14 @@
         "extensions": [
             "./dist/server/index.js"
         ],
+        "activation": {
+            "onStartup": true
+        },
+        "contracts": {
+            "tools": [
+                "run_task_flow"
+            ]
+        },
         "tools": [
             {
                 "name": "run_task_flow",
